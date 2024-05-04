@@ -1,84 +1,154 @@
 {
     "courses": [
         {
+            "id": 1,
             "title": "Introduction to Web Development",
             "description": "A beginner-friendly course covering the basics of HTML, CSS, and JavaScript.",
             "instructor": "John Doe",
             "duration": "4 weeks",
             "price": "$49.99",
-            "image": "intro_web_dev.jpg"
+            "isFeatured": true,
+            "image": "https://qph.cf2.quoracdn.net/main-qimg-f9514ea83444ef5dfded019d798ca48b-lq"
         },
         {
+            "id": 2,
             "title": "Advanced HTML and CSS Techniques",
             "description": "Take your web design skills to the next level with advanced HTML5 and CSS3 concepts.",
             "instructor": "Jane Smith",
             "duration": "6 weeks",
             "price": "$79.99",
-            "image": "adv_html_css.jpg"
+            "isFeatured": false,
+            "image": "https://qph.cf2.quoracdn.net/main-qimg-f9514ea83444ef5dfded019d798ca48b-lq"
         },
         {
+            "id": 3,
             "title": "JavaScript Fundamentals",
             "description": "Learn the fundamentals of JavaScript programming, including DOM manipulation and event handling.",
             "instructor": "Michael Johnson",
             "duration": "5 weeks",
             "price": "$59.99",
-            "image": "js_fundamentals.jpg"
+            "isFeatured": true,
+            "image": "https://cdn.mindmajix.com/courses/javascript-training-120620.png"
         },
         {
+            "id": 4,
             "title": "Responsive Web Design",
             "description": "Master the principles of responsive design and create websites that work seamlessly across all devices.",
             "instructor": "Emily Brown",
             "duration": "4 weeks",
             "price": "$69.99",
-            "image": "responsive_design.jpg"
+            "isFeatured": false,
+            "image": "https://qph.cf2.quoracdn.net/main-qimg-f9514ea83444ef5dfded019d798ca48b-lq"
         },
         {
+            "id": 5,
             "title": "Full Stack Web Development",
             "description": "Comprehensive course covering both front-end and back-end web development technologies like React, Node.js, and MongoDB.",
             "instructor": "Alex Rodriguez",
             "duration": "10 weeks",
             "price": "$149.99",
-            "image": "full_stack_web_dev.jpg"
+            "isFeatured": true,
+            "image": "https://qph.cf2.quoracdn.net/main-qimg-f9514ea83444ef5dfded019d798ca48b-lq"
         },
         {
+            "id": 6,
             "title": "CSS Grid Layout",
             "description": "Explore the power of CSS Grid Layout and learn how to create complex layouts with ease.",
             "instructor": "Sarah Williams",
             "duration": "3 weeks",
             "price": "$39.99",
-            "image": "css_grid_layout.jpg"
+            "isFeatured": true,
+            "image": "https://qph.cf2.quoracdn.net/main-qimg-f9514ea83444ef5dfded019d798ca48b-lq"
         },
         {
+            "id": 7,
             "title": "Front-end Frameworks: React",
             "description": "Dive deep into React.js and build interactive user interfaces for your web applications.",
             "instructor": "David Thompson",
             "duration": "6 weeks",
             "price": "$89.99",
-            "image": "react_framework.jpg"
+            "isFeatured": false,
+            "image": "https://media.licdn.com/dms/image/D4D12AQE3Z8FdcS8L6A/article-cover_image-shrink_720_1280/0/1694965101010?e=2147483647&v=beta&t=yrFKuepyH0y3YRjB0KVRdrNFrsutFzeXNGVYBvnWZoE"
         },
         {
+            "id": 8,
             "title": "Back-end Development with Node.js",
             "description": "Learn to build scalable and efficient back-end systems using Node.js and Express.",
             "instructor": "Jessica Lee",
             "duration": "8 weeks",
             "price": "$99.99",
-            "image": "nodejs_backend.jpg"
+            "isFeatured": true,
+            "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/How_to_Become_a_Back_End_Developer.jpg"
         },
         {
+            "id": 9,
             "title": "Database Design and Management",
             "description": "Master the fundamentals of database design and management using SQL and NoSQL databases.",
             "instructor": "Mark Davis",
             "duration": "6 weeks",
             "price": "$79.99",
-            "image": "database_management.jpg"
+            "isFeatured": true,
+            "image": "https://assets.bitdegree.org/online-learning-platforms/storage/media/stanford-database-course-featured-image.o.jpg"
         },
         {
+            "id": 10,
             "title": "Web Security and Ethical Hacking",
             "description": "Protect your web applications from cyber threats and learn ethical hacking techniques.",
             "instructor": "Rachel Garcia",
             "duration": "7 weeks",
             "price": "$129.99",
-            "image": "web_security.jpg"
+            "isFeatured": false,
+            "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/How_to_Become_a_Back_End_Developer.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Angular Essentials",
+            "description": "Get started with Angular and learn how to build modern web applications with this powerful framework.",
+            "instructor": "Andrew White",
+            "duration": "6 weeks",
+            "price": "$79.99",
+            "isFeatured": true,
+            "image": "https://ap2vgurgaon.training/media/images/courses/angularjs-training-in-gurgaon-1.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Python for Data Science",
+            "description": "Learn Python programming language and its applications in data science and machine learning.",
+            "instructor": "Laura Johnson",
+            "duration": "8 weeks",
+            "price": "$89.99",
+            "isFeatured": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCuEpj3UOyMt4B-1WgSAINBD4GxkBXk34EjKRwL1tTw&s"
+        },
+        {
+            "id": 13,
+            "title": "UI/UX Design Fundamentals",
+            "description": "Understand the principles of user interface and user experience design to create intuitive and visually appealing websites and applications.",
+            "instructor": "Chris Brown",
+            "duration": "5 weeks",
+            "price": "$59.99",
+            "isFeatured": true,
+            "image": "https://cdn.mindmajix.com/courses/javascript-training-120620.png"
+        },
+        {
+            "id": 14,
+            "title": "Mobile App Development with Flutter",
+            "description": "Learn to build cross-platform mobile applications with Flutter framework and Dart programming language.",
+            "instructor": "Sarah Johnson",
+            "duration": "7 weeks",
+            "price": "$99.99",
+            "isFeatured": false,
+            "image": "https://www.aqskill.com/wp-content/uploads/2022/10/1562d4dae8dc03456edca898e89c0f39ae086a8f-1600x1000-1.png"
+        },
+        {
+            "id": 15,
+            "title": "Java Programming Basics",
+            "description": "Get started with Java programming language and learn the basics of object-oriented programming.",
+            "instructor": "David Lee",
+            "duration": "6 weeks",
+            "price": "$69.99",
+            "isFeatured": true,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpcj5c9GrUXQuaMQ7iOzivcWdOCdCWObB1PA&s"
         }
     ]
 }
