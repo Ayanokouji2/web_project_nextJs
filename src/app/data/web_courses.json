@@ -1,0 +1,84 @@
+{
+    "courses": [
+        {
+            "title": "Introduction to Web Development",
+            "description": "A beginner-friendly course covering the basics of HTML, CSS, and JavaScript.",
+            "instructor": "John Doe",
+            "duration": "4 weeks",
+            "price": "$49.99",
+            "image": "intro_web_dev.jpg"
+        },
+        {
+            "title": "Advanced HTML and CSS Techniques",
+            "description": "Take your web design skills to the next level with advanced HTML5 and CSS3 concepts.",
+            "instructor": "Jane Smith",
+            "duration": "6 weeks",
+            "price": "$79.99",
+            "image": "adv_html_css.jpg"
+        },
+        {
+            "title": "JavaScript Fundamentals",
+            "description": "Learn the fundamentals of JavaScript programming, including DOM manipulation and event handling.",
+            "instructor": "Michael Johnson",
+            "duration": "5 weeks",
+            "price": "$59.99",
+            "image": "js_fundamentals.jpg"
+        },
+        {
+            "title": "Responsive Web Design",
+            "description": "Master the principles of responsive design and create websites that work seamlessly across all devices.",
+            "instructor": "Emily Brown",
+            "duration": "4 weeks",
+            "price": "$69.99",
+            "image": "responsive_design.jpg"
+        },
+        {
+            "title": "Full Stack Web Development",
+            "description": "Comprehensive course covering both front-end and back-end web development technologies like React, Node.js, and MongoDB.",
+            "instructor": "Alex Rodriguez",
+            "duration": "10 weeks",
+            "price": "$149.99",
+            "image": "full_stack_web_dev.jpg"
+        },
+        {
+            "title": "CSS Grid Layout",
+            "description": "Explore the power of CSS Grid Layout and learn how to create complex layouts with ease.",
+            "instructor": "Sarah Williams",
+            "duration": "3 weeks",
+            "price": "$39.99",
+            "image": "css_grid_layout.jpg"
+        },
+        {
+            "title": "Front-end Frameworks: React",
+            "description": "Dive deep into React.js and build interactive user interfaces for your web applications.",
+            "instructor": "David Thompson",
+            "duration": "6 weeks",
+            "price": "$89.99",
+            "image": "react_framework.jpg"
+        },
+        {
+            "title": "Back-end Development with Node.js",
+            "description": "Learn to build scalable and efficient back-end systems using Node.js and Express.",
+            "instructor": "Jessica Lee",
+            "duration": "8 weeks",
+            "price": "$99.99",
+            "image": "nodejs_backend.jpg"
+        },
+        {
+            "title": "Database Design and Management",
+            "description": "Master the fundamentals of database design and management using SQL and NoSQL databases.",
+            "instructor": "Mark Davis",
+            "duration": "6 weeks",
+            "price": "$79.99",
+            "image": "database_management.jpg"
+        },
+        {
+            "title": "Web Security and Ethical Hacking",
+            "description": "Protect your web applications from cyber threats and learn ethical hacking techniques.",
+            "instructor": "Rachel Garcia",
+            "duration": "7 weeks",
+            "price": "$129.99",
+            "image": "web_security.jpg"
+        }
+    ]
+}
