@@ -32,8 +32,8 @@ export default function Testimonials(){
     ];
 
     return (
-        <div className='h-[40rem] w-full'>
-            <h2 className='py-4 text-4xl font-bold px-12 pb-[15rem] text-white text-center'>Hear From The Experts </h2>
+        <div className='h-[50rem] w-full dark:bg-black bg-grid-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center'>
+            <h2 className='py-[4rem] text-4xl font-bold  pb-[15rem] text-white text-center'>Hear From The Experts </h2>
             <InfiniteMovingCards className="pb-[15rem]" items={data} speed='slow' direction='right' />
         </div>
     );
