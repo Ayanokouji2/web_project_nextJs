@@ -1,8 +1,9 @@
-import Image from 'next/image';
 import Herosection from './components/Herosection';
 import FeatureCourse from './components/FeatureCourse';
 import WhyChooseUs from './components/WhyChooseUs';
 import Testimonials from './components/Testimonials';
+import UpCommingWebinars from './components/UpCommingWebinars';
+import MeetOurInstructor from './components/MeetOurInstructor';
 
 export default function Home() {
     return (
@@ -11,6 +12,8 @@ export default function Home() {
             <FeatureCourse/>   
             <WhyChooseUs />
             <Testimonials />
+            <UpCommingWebinars />
+            <MeetOurInstructor />
         </main>
     );
 }
