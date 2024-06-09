@@ -1,7 +1,7 @@
 'use client';
 import { cn } from '@/app/utils/cn';
 import React, { useEffect, useRef, useState } from 'react';
-import { createNoise3D } from 'simplex-noise';
+import { createNoise4D } from 'simplex-noise';
 
 export const WavyBackground = ({
     children,
@@ -26,7 +26,7 @@ export const WavyBackground = ({
     waveOpacity?: number;
     [key: string]: any;
 }) => {
-    const noise = createNoise3D();
+    const noise = createNoise4D();
     let w: number,
         h: number,
         nt: number,
@@ -75,7 +75,7 @@ export const WavyBackground = ({
             ctx.lineWidth = waveWidth || 50;
             ctx.strokeStyle = waveColors[i % waveColors.length];
             for (x = 0; x < w; x += 5) {
-                var y = noise(x / 800, 0.3 * i, nt) * 100;
+                var y = noise(x / 800, 0.3 * i, nt, 20) * 100;
                 ctx.lineTo(x, y + h * 0.5); // adjust for height, currently at 50% of the container
             }
             ctx.stroke();
@@ -124,7 +124,7 @@ export const WavyBackground = ({
                     ...(isSafari ? { filter: `blur(${blur}px)` } : {})
                 }}
             ></canvas>
-            <div className={cn(' z-10', className)} {...props}>  // removed relative from this class
+            <div className={cn('relative z-10', className)} {...props}>  
                 {children}
             </div>
         </div>
