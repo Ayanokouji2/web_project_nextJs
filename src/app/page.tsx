@@ -4,6 +4,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Testimonials from './components/Testimonials';
 import UpCommingWebinars from './components/UpCommingWebinars';
 import MeetOurInstructor from './components/MeetOurInstructor';
+import Footer from './components/Footer';
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <Testimonials />
             <UpCommingWebinars />
             <MeetOurInstructor />
+            <Footer />
         </main>
     );
 }

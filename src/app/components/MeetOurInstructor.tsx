@@ -47,7 +47,7 @@ const people = [
 
 export default function MeetOurInstructor() {
     return (
-        <div className=" relative h-[40rem] flex flex-col justify-center items-center">
+        <div className=" relative w-screen h-[40rem] flex flex-col justify-center items-center">
             <WavyBackground>
                 <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center uppercase">
                     Meet our instructor
