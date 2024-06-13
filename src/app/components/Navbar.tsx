@@ -36,7 +36,7 @@ export default ({ className }: { className?: string }) => {
                         <HoveredLink href="/courses">All Courses</HoveredLink>
                     </div>
                 </MenuItem>
-                <Link href='/contact-Us'>
+                <Link href='/contact'>
                     <MenuItem
                         setActive={setActive}
                         active={active}
